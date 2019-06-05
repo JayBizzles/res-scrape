@@ -6,6 +6,6 @@ ruby '2.5.1'
 gem 'pry-rails'
 gem 'watir'
 gem 'httparty'
-gem "nokogiri", ">= 1.8.5"'
+gem "nokogiri", ">= 1.8.5"
 gem 'awesome_print'
 gem 'selenium-webdriver'
