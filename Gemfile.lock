@@ -6,9 +6,11 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.2)
     ffi (1.9.25)
-    httparty (0.16.2)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     method_source (0.9.0)
+    mini_mime (1.1.2)
     mini_portile2 (2.3.0)
     multi_xml (0.6.0)
     nokogiri (1.8.5)
@@ -21,7 +23,7 @@ GEM
     rubyzip (1.2.2)
     selenium-webdriver (3.13.1)
       childprocess (~> 0.5)
-      rubyzip (~> 1.2, >=1.2.2)
+      rubyzip (~> 1.2, >= 1.2.2)
     watir (6.12.0)
       selenium-webdriver (~> 3.4, >= 3.4.1)
 
@@ -31,7 +33,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   httparty
-  nokogiri
+  nokogiri (>= 1.8.5)
   pry-rails
   selenium-webdriver
   watir
